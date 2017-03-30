@@ -1,0 +1,38 @@
+* {
+  font-family: 'Lobster Two', cursive;
+
+}
+
+/** Background Image **/
+body {
+background-image: url("C:/Users/Raphy Waffy/AppData/Local/atom/Guan Yu/images/Untitled-1.jpg");
+background-repeat: no-repeat;
+
+}
+
+/** Header**/
+#head {
+  text-align: center;
+}
+
+/** Positioning for the dates **/
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.dates > h2 {
+  margin-left: 30px;
+}
+
+/** Main div for battles. **/
+
+#mb1 {
+  background: rgba(211,211,211,0.3);
+  padding: 10px;
+  position: relative;
+  max-width: 450px;
+  margin-left: 40px;
+
+}
